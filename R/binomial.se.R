@@ -42,7 +42,7 @@
   .y <- model$y
   cases <- sum(.n*.y)
   mu.y <- cases / .n.total
-  (cases * (1-mu)^2 + (.n.total - cases) * mu^2) / (.n.total - 1)
+  (cases * (1-mu.y)^2 + (.n.total - cases) * mu.y^2) / (.n.total - 1)
 }
 
 .sd.y.hat <- function(model) {
