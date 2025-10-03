@@ -7,6 +7,13 @@
 \description{
 `stcolrm` is an R package designed to compute standardised coefficients for logistic regression models. It provides a straightforward and statistically sound method to assess the relative importance of predictors by rescaling them to a common scale. This allows for more interpretable comparisons between covariates in binary outcome models. The package uses glm()-fitted logistic regression objects, calculates standardised beta coefficients, and help visualising effect sizes.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://stat-cook.github.io/stcolrm/}
+}
+
+}
 \author{
 \strong{Maintainer}: Asaduzzaman Md \email{asad.mdaz@gmail.com}
 
