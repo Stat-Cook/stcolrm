@@ -1,0 +1,26 @@
+Package: stcolrm
+Type: Package 
+Title: Calculating standardised coefficients for logistic regression models
+Version: 0.1.0
+Authors@R: person(
+  given = "Asaduzzaman", 
+  family = "Md", 
+  role = c("aut","cre"), 
+  email = "asad.mdaz@gmail.com")
+Published: 2025-09-01
+Description: `stcolrm` is an R package designed to compute standardised coefficients for logistic regression models. It provides a straightforward and statistically sound method to assess the relative importance of predictors by rescaling them to a common scale. This allows for more interpretable comparisons between covariates in binary outcome models. The package uses glm()-fitted logistic regression objects, calculates standardised beta coefficients, and help visualising effect sizes.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 3.5.0), magrittr, tibble
+Imports: stats, ggplot2
+Suggests: 
+    kmed,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Authors: Md Asaduzzaman [aut, cre] <asad.mdaz@gmail.com>
+Maintainer: Md Asaduzzaman <asad.mdaz@gmail.com>
+Repository: CRAN
+Date/Publication: 2025-09-01 17:00:00 GMT
+LazyData: true
