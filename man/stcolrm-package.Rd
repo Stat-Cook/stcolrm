@@ -17,5 +17,10 @@ Useful links:
 \author{
 \strong{Maintainer}: Asaduzzaman Md \email{asad.mdaz@gmail.com}
 
+Authors:
+\itemize{
+  \item Robert Cook \email{rzc1@staff.staffs.ac.uk} (\href{https://orcid.org/0000-0003-3343-8271}{ORCID})
+}
+
 }
 \keyword{internal}
