@@ -6,3 +6,6 @@ docs
 .Rhistory
 
 stcolrm.Rproj
+inst/doc
+
+install.bat
