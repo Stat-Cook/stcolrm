@@ -1,20 +1,20 @@
-print.stcolrm <- function(object, ...) {
+print.stcolrm <- function(x, ...) {
   #' @exportS3Method
   #' @importFrom rlang list2
 
   dots <- list2(...)
   args <- get_all_with_default(dots, digits=3, print.gap=2, quote=FALSE)
 
-  .coef <- object$standardised_coefficients
+  .coef <- x$standardised_coefficients
   if (length(.coef)) {
-    cat(sprintf("Standardized Coefficients (%s)\n", object$method))
+    cat(sprintf("Standardized Coefficients (%s)\n", x$method))
 
     do.call(print.default, c(list(.coef), args))
   }
   else
     cat("No coefficients\n\n")
 
-  invisible(object)
+  invisible(x)
 }
 
 get_all_with_default <- function(object, ...){
