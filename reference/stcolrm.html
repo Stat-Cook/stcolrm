@@ -93,27 +93,19 @@ variety of explanatory variables.</p>
 <span class="r-in"><span><span class="va">heartdata</span><span class="op">$</span><span class="va">classN</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html" class="external-link">ifelse</a></span><span class="op">(</span><span class="va">heart</span><span class="op">$</span><span class="va">class</span> <span class="op">==</span> <span class="fl">0</span>, <span class="fl">0</span>, <span class="fl">1</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">mfit</span> <span class="op">&lt;-</span> <span class="fu">stcolrm</span><span class="op">(</span><span class="va">classN</span> <span class="op">~</span> <span class="va">age</span> <span class="op">+</span> <span class="va">sex</span> <span class="op">+</span> <span class="va">trestbps</span> <span class="op">+</span> <span class="va">chol</span> <span class="op">+</span> <span class="va">restecg</span>, data<span class="op">=</span><span class="va">heartdata</span>, <span class="st">"simple-preSTD"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">mfit</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Standardized Coefficients (simple-preSTD)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      age   sexTRUE  trestbps      chol  restecg1  restecg2  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>     3.35      5.39      1.63      1.48      1.54      1.83  </span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in list2(...):</span> could not find function "list2"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">mfit</span> <span class="op">&lt;-</span> <span class="fu">stcolrm</span><span class="op">(</span><span class="va">classN</span> <span class="op">~</span> <span class="va">age</span> <span class="op">+</span> <span class="va">sex</span> <span class="op">+</span> <span class="va">trestbps</span> <span class="op">+</span> <span class="va">chol</span> <span class="op">+</span> <span class="va">restecg</span>, data<span class="op">=</span><span class="va">heartdata</span>, <span class="st">"simple-postEST"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">mfit</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Standardized Coefficients (simple-postEST)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      age   sexTRUE  trestbps      chol  restecg1  restecg2  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    0.483     0.799     0.225     0.199     0.222     0.240  </span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in list2(...):</span> could not find function "list2"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">mfit</span> <span class="op">&lt;-</span> <span class="fu">stcolrm</span><span class="op">(</span><span class="va">classN</span> <span class="op">~</span> <span class="va">age</span> <span class="op">+</span> <span class="va">sex</span> <span class="op">+</span> <span class="va">trestbps</span> <span class="op">+</span> <span class="va">chol</span> <span class="op">+</span> <span class="va">restecg</span>, data<span class="op">=</span><span class="va">heartdata</span>, <span class="st">"partial"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">mfit</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Standardized Coefficients (partial)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      age   sexTRUE  trestbps      chol  restecg1  restecg2  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    10.80     17.87      5.03      4.46      4.97      5.38  </span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in list2(...):</span> could not find function "list2"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">mfit</span> <span class="op">&lt;-</span> <span class="fu">stcolrm</span><span class="op">(</span><span class="va">classN</span> <span class="op">~</span> <span class="va">age</span> <span class="op">+</span> <span class="va">sex</span> <span class="op">+</span> <span class="va">trestbps</span> <span class="op">+</span> <span class="va">chol</span> <span class="op">+</span> <span class="va">restecg</span>, data<span class="op">=</span><span class="va">heartdata</span>, <span class="st">"full"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">mfit</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Standardized Coefficients (full)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      age   sexTRUE  trestbps      chol  restecg1  restecg2  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    1.936     3.205     0.903     0.800     0.892     0.964  </span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in list2(...):</span> could not find function "list2"</span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
