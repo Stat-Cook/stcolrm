@@ -19,7 +19,7 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Robert Cook \email{rzc1@staff.staffs.ac.uk} (\href{https://orcid.org/0000-0003-3343-8271}{ORCID})
+  \item Robert Cook (\href{https://orcid.org/0000-0003-3343-8271}{ORCID})
 }
 
 }

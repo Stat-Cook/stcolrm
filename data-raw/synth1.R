@@ -1,5 +1,3 @@
-## code to prepare starwars dataset goes here
-
 {
   set.seed(205)
   n <- 2000
@@ -15,7 +13,7 @@
   eta.noise <- rnorm(n, eta, 0.1)
   synth1$n <- sample(5:15, 100, T)
   p <- binomial()$linkinv(eta.noise)
-  synth1$y <- rbinom(n, 1, p)
+  synth1$y <- rbinom(n, synth1$n, p)
 }
 
 usethis::use_data(synth1, overwrite = TRUE)
