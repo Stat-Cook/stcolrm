@@ -18,9 +18,10 @@ print.stcolrm <- function(object, ...) {
 }
 
 get_all_with_default <- function(object, ...){
+  #' @importFrom purrr imap
   dots <- list2(...)
 
-  .result <- purrr::imap(
+  .result <- imap(
     dots,
     ~ get_with_default(object, .y, .x)
   )
