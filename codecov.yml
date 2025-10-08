@@ -1,0 +1,3 @@
+ignore:
+  - "R/computesd.R"
+  - "R/sdfun.R"
